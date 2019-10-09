@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="vcs_revision" label="vcs_revision" language="en" table="var__m_sys_hub_step_ext_output_006157c3db500010baf42fb7489619aa">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>vcs_revision</element>
+            <help/>
+            <hint/>
+            <label>vcs_revision</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_006157c3db500010baf42fb7489619aa</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>avotom</sys_created_by>
+            <sys_created_on>2019-10-09 20:10:42</sys_created_on>
+            <sys_id>4c6157c3db500010baf42fb7489619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>vcs_revision</sys_name>
+            <sys_package display_value="Bamboo Spoke" source="x_snc_bamboo">de259855db98cc1064dcf5861d9619c0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bamboo Spoke">de259855db98cc1064dcf5861d9619c0</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_006157c3db500010baf42fb7489619aa_vcs_revision_en</sys_update_name>
+            <sys_updated_by>avotom</sys_updated_by>
+            <sys_updated_on>2019-10-09 20:10:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

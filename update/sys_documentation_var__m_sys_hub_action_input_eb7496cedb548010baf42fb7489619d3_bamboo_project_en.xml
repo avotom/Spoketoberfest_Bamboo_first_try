@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="bamboo_project" label="Bamboo Project" language="en" table="var__m_sys_hub_action_input_eb7496cedb548010baf42fb7489619d3">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>bamboo_project</element>
+            <help/>
+            <hint/>
+            <label>Bamboo Project</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eb7496cedb548010baf42fb7489619d3</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>avotom</sys_created_by>
+            <sys_created_on>2019-10-06 13:10:48</sys_created_on>
+            <sys_id>f7749a02db948010baf42fb74896196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Bamboo Project</sys_name>
+            <sys_package display_value="Bamboo Spoke" source="x_snc_bamboo">de259855db98cc1064dcf5861d9619c0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bamboo Spoke">de259855db98cc1064dcf5861d9619c0</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_eb7496cedb548010baf42fb7489619d3_bamboo_project_en</sys_update_name>
+            <sys_updated_by>avotom</sys_updated_by>
+            <sys_updated_on>2019-10-06 13:10:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

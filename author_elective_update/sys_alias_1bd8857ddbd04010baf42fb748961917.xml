@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <connection_type>http_connection</connection_type>
+        <id>x_snc_bamboo.bamboo_dev</id>
+        <multiple_connections>false</multiple_connections>
+        <name>bamboo_dev</name>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-05 13:02:14</sys_created_on>
+        <sys_id>1bd8857ddbd04010baf42fb748961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_bamboo.bamboo_dev</sys_name>
+        <sys_package display_value="Bamboo Spoke" source="x_snc_bamboo">de259855db98cc1064dcf5861d9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bamboo Spoke">de259855db98cc1064dcf5861d9619c0</sys_scope>
+        <sys_update_name>sys_alias_1bd8857ddbd04010baf42fb748961917</sys_update_name>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-05 13:02:14</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bamboo Spoke">de259855db98cc1064dcf5861d9619c0</application>
+        <file_path/>
+        <instance_id>dc311e4fdb025bccff27d5b0cf9619f9</instance_id>
+        <instance_name>dev59626</instance_name>
+        <name>sys_alias_1bd8857ddbd04010baf42fb748961917</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><connection_type>http_connection</connection_type><id>x_snc_bamboo.bamboo_dev</id><multiple_connections>false</multiple_connections><name>bamboo_dev</name><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>avotom</sys_created_by><sys_created_on>2019-10-05 13:02:14</sys_created_on><sys_id>1bd8857ddbd04010baf42fb748961917</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_bamboo.bamboo_dev</sys_name><sys_package display_value="Bamboo Spoke" source="x_snc_bamboo">de259855db98cc1064dcf5861d9619c0</sys_package><sys_policy/><sys_scope display_value="Bamboo Spoke">de259855db98cc1064dcf5861d9619c0</sys_scope><sys_update_name>sys_alias_1bd8857ddbd04010baf42fb748961917</sys_update_name><sys_updated_by>avotom</sys_updated_by><sys_updated_on>2019-10-05 13:02:14</sys_updated_on><type>connection</type></sys_alias></record_update>]]></payload>
+        <payload_hash>-1088345244</payload_hash>
+        <record_name>x_snc_bamboo.bamboo_dev</record_name>
+        <reverted_from/>
+        <source>9b7d7431dbd04010baf42fb748961900</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-05 13:02:15</sys_created_on>
+        <sys_id>7cf8817ddbd04010baf42fb7489619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d9c0373eb0000001</sys_recorded_at>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-05 13:02:15</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>b4f8817da5d040107571900ab30fb4c9</update_guid>
+        <update_guid_history>b4f8817da5d040107571900ab30fb4c9:-1088345244</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-09 20:31:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>1dc20962d8c14a8083dc779d03cb4764</sys_id>
+        <sys_metadata>1bd8857ddbd04010baf42fb748961917</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_bamboo.bamboo_dev</sys_name>
+        <sys_package display_value="Bamboo Spoke" source="x_snc_bamboo">de259855db98cc1064dcf5861d9619c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bamboo Spoke">de259855db98cc1064dcf5861d9619c0</sys_scope>
+        <sys_scope_delete display_value="">0653693f44f741c08253d0fc6e721d10</sys_scope_delete>
+        <sys_update_name>sys_alias_1bd8857ddbd04010baf42fb748961917</sys_update_name>
+        <sys_update_version display_value="sys_alias_1bd8857ddbd04010baf42fb748961917">7cf8817ddbd04010baf42fb7489619c9</sys_update_version>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-09 20:31:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
