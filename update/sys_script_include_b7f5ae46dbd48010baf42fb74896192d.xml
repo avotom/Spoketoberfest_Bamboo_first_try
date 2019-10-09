@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_bamboo.BambooUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>BambooUtils</name>
+        <script><![CDATA[var BambooUtils = Class.create();
+BambooUtils.prototype = {
+	initialize: function() {
+	},
+
+	/**
+	  Params : json object 
+	  Functionality : Traverses through all key-value pairs part of the inputs and strips the value of any whitespace which are added inadverently around the values.
+	  Return : updated json object.
+	*/
+	trimStringInputs: function(inputs) {
+		for (var key in inputs) {
+			if (inputs[key] && typeof inputs[key] == 'string') {
+				inputs[key] = inputs[key].trim();			
+			}
+		}
+		return inputs;  
+	},
+
+	buildQueryParams: function(data) {
+		var query = [];
+		for (var key in data) {
+			if (!gs.nil(data[key])) {
+				query.push(encodeURIComponent(key) + '=' + encodeURIComponent(data[key]));
+			}
+		}
+
+		// Join each item in the array with a `&` and return the resulting string
+		return query.join('&');
+	},
+
+	type: 'BambooUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-06 14:29:42</sys_created_on>
+        <sys_id>b7f5ae46dbd48010baf42fb74896192d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>BambooUtils</sys_name>
+        <sys_package display_value="Bamboo Spoke" source="x_snc_bamboo">de259855db98cc1064dcf5861d9619c0</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Bamboo Spoke">de259855db98cc1064dcf5861d9619c0</sys_scope>
+        <sys_update_name>sys_script_include_b7f5ae46dbd48010baf42fb74896192d</sys_update_name>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-09 19:52:56</sys_updated_on>
+    </sys_script_include>
+</record_update>
