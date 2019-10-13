@@ -7,16 +7,16 @@
         <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
         <sys_class_name>sys_alias</sys_class_name>
         <sys_created_by>avotom</sys_created_by>
-        <sys_created_on>2019-10-13 14:20:33</sys_created_on>
-        <sys_id>36876e14db600010baf42fb748961977</sys_id>
+        <sys_created_on>2019-10-13 16:40:34</sys_created_on>
+        <sys_id>9e97cfd0dbe00010baf42fb7489619b1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_bamboo.Bamboo</sys_name>
         <sys_package display_value="Bamboo Spoke" source="x_snc_bamboo">de259855db98cc1064dcf5861d9619c0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bamboo Spoke">de259855db98cc1064dcf5861d9619c0</sys_scope>
-        <sys_update_name>sys_alias_36876e14db600010baf42fb748961977</sys_update_name>
+        <sys_update_name>sys_alias_9e97cfd0dbe00010baf42fb7489619b1</sys_update_name>
         <sys_updated_by>avotom</sys_updated_by>
-        <sys_updated_on>2019-10-13 14:20:33</sys_updated_on>
+        <sys_updated_on>2019-10-13 16:40:34</sys_updated_on>
         <type>connection</type>
     </sys_alias>
 </record_update>

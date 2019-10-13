@@ -38,10 +38,10 @@
         <label>Version</label>
         <mandatory>false</mandatory>
         <max_length>100</max_length>
-        <model display_value="x_snc_bamboo.Bamboo">36876e14db600010baf42fb748961977</model>
-        <model_id>36876e14db600010baf42fb748961977</model_id>
+        <model display_value="x_snc_bamboo.Bamboo">9e97cfd0dbe00010baf42fb7489619b1</model>
+        <model_id>9e97cfd0dbe00010baf42fb7489619b1</model_id>
         <model_table/>
-        <name>var__m_connection_attributes_36876e14db600010baf42fb748961977</name>
+        <name>var__m_connection_attributes_9e97cfd0dbe00010baf42fb7489619b1</name>
         <next_element/>
         <order>100</order>
         <primary>false</primary>
@@ -59,16 +59,16 @@
         <staged>false</staged>
         <sys_class_name>connection_attributes</sys_class_name>
         <sys_created_by>avotom</sys_created_by>
-        <sys_created_on>2019-10-13 14:20:56</sys_created_on>
-        <sys_id>83972a54db600010baf42fb748961949</sys_id>
+        <sys_created_on>2019-10-13 16:40:50</sys_created_on>
+        <sys_id>f5a7c714dbe00010baf42fb7489619dc</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Version</sys_name>
         <sys_package display_value="Bamboo Spoke" source="x_snc_bamboo">de259855db98cc1064dcf5861d9619c0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bamboo Spoke">de259855db98cc1064dcf5861d9619c0</sys_scope>
-        <sys_update_name>connection_attributes_83972a54db600010baf42fb748961949</sys_update_name>
+        <sys_update_name>connection_attributes_f5a7c714dbe00010baf42fb7489619dc</sys_update_name>
         <sys_updated_by>avotom</sys_updated_by>
-        <sys_updated_on>2019-10-13 14:20:56</sys_updated_on>
+        <sys_updated_on>2019-10-13 16:40:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
