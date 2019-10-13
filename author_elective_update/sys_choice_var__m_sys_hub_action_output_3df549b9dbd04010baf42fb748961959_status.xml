@@ -1,58 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="status" table="var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Success</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959</name>
-            <sequence>1</sequence>
-            <sys_created_by>avotom</sys_created_by>
-            <sys_created_on>2019-10-06 18:50:24</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>6232e38edb988010baf42fb7489619d8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>avotom</sys_updated_by>
-            <sys_updated_on>2019-10-06 18:50:24</sys_updated_on>
-            <value>Success</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Error</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959</name>
-            <sequence>2</sequence>
-            <sys_created_by>avotom</sys_created_by>
-            <sys_created_on>2019-10-06 18:50:24</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a232e38edb988010baf42fb7489619d9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>avotom</sys_updated_by>
-            <sys_updated_on>2019-10-06 18:50:24</sys_updated_on>
-            <value>Error</value>
-        </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+    <sys_choice action="DELETE" field="status" table="var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959" version="3">
+        <sys_choice_set action="DELETE">
             <element>status</element>
             <name>var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>avotom</sys_created_by>
-            <sys_created_on>2019-10-06 18:50:24</sys_created_on>
-            <sys_id>aa32e38edb988010baf42fb7489619d8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>status</sys_name>
-            <sys_package display_value="Bamboo Spoke" source="x_snc_bamboo">de259855db98cc1064dcf5861d9619c0</sys_package>
+            <sys_class_name/>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id/>
+            <sys_mod_count/>
+            <sys_name/>
+            <sys_package/>
             <sys_policy/>
-            <sys_scope display_value="Bamboo Spoke">de259855db98cc1064dcf5861d9619c0</sys_scope>
-            <sys_update_name>sys_choice_var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959_status</sys_update_name>
-            <sys_updated_by>avotom</sys_updated_by>
-            <sys_updated_on>2019-10-06 18:50:24</sys_updated_on>
+            <sys_scope/>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2019-10-09 20:45:10</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application/>
+        <file_path/>
+        <instance_id>dc311e4fdb025bccff27d5b0cf9619f9</instance_id>
+        <instance_name>dev59626</instance_name>
+        <name>sys_choice_var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959_status</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="status" table="var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959" version="3"><sys_choice_set action="DELETE"><element>status</element><name>var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959</name><sys_class_name/><sys_created_by/><sys_created_on/><sys_id/><sys_mod_count/><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by/><sys_updated_on>2019-10-09 20:45:10</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>894159180</payload_hash>
+        <record_name>.status</record_name>
+        <reverted_from/>
+        <source>9b7d7431dbd04010baf42fb748961900</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-09 20:45:10</sys_created_on>
+        <sys_id>4149dbcfdb500010baf42fb74896192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16db244b6930000001</sys_recorded_at>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-09 20:45:10</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>c949dbcfbc50001081a976f87abc402c</update_guid>
+        <update_guid_history>c949dbcfbc50001081a976f87abc402c:894159180,8149dbcf9c50001022f90d523785332a:1778243173,0549dbcf2b500010c3389953fd6ec828:-1834767904</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-09 20:47:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>5ac9d3c3db900010baf42fb7489619a6</sys_id>
+        <sys_metadata>5ac9d3c3db900010baf42fb7489619a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Bamboo Spoke" source="x_snc_bamboo">de259855db98cc1064dcf5861d9619c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bamboo Spoke">de259855db98cc1064dcf5861d9619c0</sys_scope>
+        <sys_scope_delete display_value="">0653693f44f741c08253d0fc6e721d10</sys_scope_delete>
+        <sys_update_name>sys_choice_var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959_status</sys_update_name>
+        <sys_update_version display_value="sys_choice_var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959_status">4149dbcfdb500010baf42fb74896192d</sys_update_version>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-09 20:47:28</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>
