@@ -646,6 +646,7 @@ By default always the latest revision from source control is built. You can spec
         <action display_value="Execute Bamboo Plan">3df549b9dbd04010baf42fb748961959</action>
         <cid>c3f0dc7a-1bed-4680-b5e6-a2f793b0f229</cid>
         <extended_inputs/>
+        <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
@@ -703,6 +704,79 @@ By default always the latest revision from source control is built. You can spec
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dad03a39db584010baf42fb748961965"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>dad03a39db584010baf42fb748961965</id>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-05 20:36:12</sys_created_on>
+        <sys_id>12d03a39db584010baf42fb7489619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-05 20:36:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>dad03a39db584010baf42fb748961965</id>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-05 21:19:24</sys_created_on>
+        <sys_id>13ba32b1db984010baf42fb7489619ee</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-06 15:13:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_dad03a39db584010baf42fb748961965</table>
+        <value>{{step[48a59eb4-40f9-4792-a958-c54a25fe8f61].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>dad03a39db584010baf42fb748961965</id>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-05 20:36:12</sys_created_on>
+        <sys_id>d2d03a39db584010baf42fb7489619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-05 20:36:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>dad03a39db584010baf42fb748961965</id>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-05 21:19:24</sys_created_on>
+        <sys_id>d3ba32b1db984010baf42fb7489619ee</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-06 15:13:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_dad03a39db584010baf42fb748961965</table>
+        <value>{{step[48a59eb4-40f9-4792-a958-c54a25fe8f61].status_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>step_input_response_body</field>
+        <id>dad03a39db584010baf42fb748961965</id>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-05 20:36:12</sys_created_on>
+        <sys_id>56d03a39db584010baf42fb7489619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-05 20:36:12</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_dad03a39db584010baf42fb748961965</table>
+        <value>{{step[f44468f5-a893-449f-b1fb-e05ce6af021d].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>step_input_status_code</field>
+        <id>dad03a39db584010baf42fb748961965</id>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-05 20:36:12</sys_created_on>
+        <sys_id>1ad03a39db584010baf42fb7489619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-05 20:36:12</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_dad03a39db584010baf42fb748961965</table>
+        <value>{{step[f44468f5-a893-449f-b1fb-e05ce6af021d].status_code}}</value>
+    </sys_element_mapping>
     <sys_hub_step_ext_input action="delete_multiple" query="model=dad03a39db584010baf42fb748961965^sys_idNOT IN47ba32b1db984010baf42fb7489619bd,8fba32b1db984010baf42fb7489619b8"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -3580,6 +3654,7 @@ By default always the latest revision from source control is built. You can spec
         <action display_value="Execute Bamboo Plan">3df549b9dbd04010baf42fb748961959</action>
         <cid>c3f0dc7a-1bed-4680-b5e6-a2f793b0f229</cid>
         <extended_inputs/>
+        <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
@@ -3637,6 +3712,79 @@ By default always the latest revision from source control is built. You can spec
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dad03a39db584010baf42fb748961965"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>dad03a39db584010baf42fb748961965</id>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-05 20:36:12</sys_created_on>
+        <sys_id>12d03a39db584010baf42fb7489619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-05 20:36:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>dad03a39db584010baf42fb748961965</id>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-05 21:19:24</sys_created_on>
+        <sys_id>13ba32b1db984010baf42fb7489619ee</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-06 15:13:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_dad03a39db584010baf42fb748961965</table>
+        <value>{{step[48a59eb4-40f9-4792-a958-c54a25fe8f61].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>dad03a39db584010baf42fb748961965</id>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-05 20:36:12</sys_created_on>
+        <sys_id>d2d03a39db584010baf42fb7489619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-05 20:36:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>dad03a39db584010baf42fb748961965</id>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-05 21:19:24</sys_created_on>
+        <sys_id>d3ba32b1db984010baf42fb7489619ee</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-06 15:13:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_dad03a39db584010baf42fb748961965</table>
+        <value>{{step[48a59eb4-40f9-4792-a958-c54a25fe8f61].status_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>step_input_response_body</field>
+        <id>dad03a39db584010baf42fb748961965</id>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-05 20:36:12</sys_created_on>
+        <sys_id>56d03a39db584010baf42fb7489619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-05 20:36:12</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_dad03a39db584010baf42fb748961965</table>
+        <value>{{step[f44468f5-a893-449f-b1fb-e05ce6af021d].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>step_input_status_code</field>
+        <id>dad03a39db584010baf42fb748961965</id>
+        <sys_created_by>avotom</sys_created_by>
+        <sys_created_on>2019-10-05 20:36:12</sys_created_on>
+        <sys_id>1ad03a39db584010baf42fb7489619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>avotom</sys_updated_by>
+        <sys_updated_on>2019-10-05 20:36:12</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_dad03a39db584010baf42fb748961965</table>
+        <value>{{step[f44468f5-a893-449f-b1fb-e05ce6af021d].status_code}}</value>
+    </sys_element_mapping>
     <sys_hub_step_ext_input action="delete_multiple" query="model=dad03a39db584010baf42fb748961965^sys_idNOT IN47ba32b1db984010baf42fb7489619bd,8fba32b1db984010baf42fb7489619b8"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -5395,45 +5543,4 @@ By default always the latest revision from source control is built. You can spec
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959^sys_idNOT IN6232e38edb988010baf42fb7489619d8,a232e38edb988010baf42fb7489619d9"/>
-    <sys_choice field="status" table="var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Success</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959</name>
-            <sequence>1</sequence>
-            <sys_created_by>avotom</sys_created_by>
-            <sys_created_on>2019-10-06 18:50:24</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>6232e38edb988010baf42fb7489619d8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>avotom</sys_updated_by>
-            <sys_updated_on>2019-10-06 18:50:24</sys_updated_on>
-            <value>Success</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Error</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_output_3df549b9dbd04010baf42fb748961959</name>
-            <sequence>2</sequence>
-            <sys_created_by>avotom</sys_created_by>
-            <sys_created_on>2019-10-06 18:50:24</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a232e38edb988010baf42fb7489619d9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>avotom</sys_updated_by>
-            <sys_updated_on>2019-10-06 18:50:24</sys_updated_on>
-            <value>Error</value>
-        </sys_choice>
-    </sys_choice>
 </record_update>
